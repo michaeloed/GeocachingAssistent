@@ -29,12 +29,7 @@ Die Anwendung soll plattformübergreifend auf **Windows (Desktop)** und **Androi
 ## 🚀 Installation
 
 > ⚙️ *Dieser Abschnitt wird noch ausgearbeitet.*  
-> Platzhalter für Schritt-für-Schritt-Anleitung zur lokalen Installation auf Windows oder Android.
 
-```bash
-# Beispiel (wird später angepasst)
-git clone https://github.com/dein-benutzername/GeocachingAssistent.git
-cd GeocachingAssistent
 ## 🤝 Mitmachen
 
 Beiträge sind ausdrücklich erwünscht! 🎉
