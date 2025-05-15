@@ -1,22 +1,59 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+
+
+
+---
+
+## ✅ 2. `.gitignore` (für ein Projekt mit .NET MAUI, Angular & ggf. Java)
+
+```gitignore
+# .NET / .NET MAUI
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
+.vs/
+project.lock.json
+*.dbmdl
+
+# Angular / Node.js
+node_modules/
+dist/
+npm-debug.log*
+yarn-error.log
+.env
+.angular/cache/
+
+# Java (falls Backend in Java/Spring Boot)
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+.idea/
+*.iml
+*.log
+
+# IDEs & Tools
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.tmp
+*.~*
+
+# JetBrains Rider / IntelliJ
+.idea/
+*.iws
+*.ipr
+
+# VSCode
+.vscode/
+
+# OS-spezifisch
+*.DS_Store
+ehthumbs.db
+Icon?
